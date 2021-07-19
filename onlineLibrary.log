@@ -15,3 +15,10 @@
 2021-07-19T21:57:39.720Z [store-api] info GET /client
 2021-07-19T22:05:09.913Z [store-api] info DELETE /client
 2021-07-19T22:05:16.003Z [store-api] info GET /client
+2021-07-19T22:12:34.754Z [store-api] info GET /client
+2021-07-19T22:30:21.851Z [store-api] info GET /client
+2021-07-19T22:30:32.693Z [store-api] info GET /client
+2021-07-19T22:33:24.576Z [store-api] info GET /client
+2021-07-19T22:34:18.916Z [store-api] info GET /client
+2021-07-19T22:34:32.373Z [store-api] info PUT /client - {"nome":"Giovana Barbosa","email":"giovanabetinabarbosa@gmail.com","telefone":"27998835914","endereco":"Rua Tancredo Neves 639, Serra-ES"}
+2021-07-19T22:44:39.915Z [store-api] info GET /client

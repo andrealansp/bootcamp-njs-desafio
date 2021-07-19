@@ -10,7 +10,9 @@ async function inserirCliente(cliente) {
 
 async function retornarClientes() {
   try {
-    return await clienteModel.findAll();
+    return await clienteModel.findAll({
+      attributes: ["nome", "email", "telefone", "endereco"],
+    });
   } catch (e) {
     throw e;
   }
@@ -18,7 +20,9 @@ async function retornarClientes() {
 
 async function retornaCliente(id) {
   try {
-    return await clienteModel.findByPk(id);
+    return await clienteModel.findByPk(id, {
+      attributes: ["nome", "email", "telefone", "endereco"],
+    });
   } catch (e) {
     throw e;
   }
@@ -26,11 +30,10 @@ async function retornaCliente(id) {
 
 async function atualizarClientes(cliente) {
   try {
-    console.log(cliente.clienteId);
     await clienteModel.update(cliente, {
       where: { clienteId: cliente.clienteId },
     });
-    return await clienteModel.retornaCliente(cliente.clienteId);
+    return await retornaCliente(cliente.clienteId);
   } catch (e) {
     throw e;
   }
