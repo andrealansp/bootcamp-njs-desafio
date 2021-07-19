@@ -11,9 +11,9 @@ const Autor = db.define(
       primaryKey: true,
     },
     nome: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        unique: true,
+      type: Sequelize.STRING,
+      allowNull: false,
+      unique: true,
     },
     email: {
       type: Sequelize.STRING,
@@ -22,8 +22,9 @@ const Autor = db.define(
     telefone: {
       type: Sequelize.STRING,
       allowNull: false,
-    }
-  },{timestamp:false}
+    },
+  },
+  { timestamps: false }
 );
 
 export default Autor;

@@ -1,13 +1,13 @@
 import autorModel from "../models/autor.model.js";
 
-async function inserirCliente(autor){
-    try{
-        return await clienteModel.create(autor);
-    }catch(e){
-        next(e)
-    }
+async function inserirAutor(autor) {
+  try {
+    return await autorModel.create(autor);
+  } catch (e) {
+    throw e;
+  }
 }
 
 export default {
-    inserirCliente
-}
+  inserirAutor,
+};

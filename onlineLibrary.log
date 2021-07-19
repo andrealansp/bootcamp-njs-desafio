@@ -2,3 +2,5 @@
 2021-07-18T20:57:09.386Z [store-api] error POST  - Name, email, senha, telefone e endereço são obrigatórios para criação do cliente.
 2021-07-18T20:57:32.324Z [store-api] error POST  - client is not defined
 2021-07-18T20:59:16.941Z [store-api] info POST /client - {"clienteId":2,"nome":"Giovana Betina Barbosa","email":"giovanabetinabarbosa@gmail.com","senha":"ZjRxDsNQt4","telefone":"27998835914","endereco":"Rua Tancredo Neves 639, Serra-ES","updatedAt":"2021-07-18T20:59:16.269Z","createdAt":"2021-07-18T20:59:16.269Z"}
+2021-07-19T23:38:11.043Z [store-api] error POST  - client is not defined
+2021-07-19T23:40:15.920Z [store-api] error POST  - Validation error
