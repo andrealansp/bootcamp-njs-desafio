@@ -38,7 +38,11 @@ async function excluirAutor(id) {
 }
 async function atualizarAutor(autor) {
   try {
-    return await autorModel.update({ where: { autorId: autor.autorId } });
+    await autorModel.update(autor, {
+      where: { autorId: autor.autorId },
+    });
+
+    return retornaAutor(autor.autorId);
   } catch (e) {
     throw e;
   }

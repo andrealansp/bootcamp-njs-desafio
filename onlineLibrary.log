@@ -28,3 +28,7 @@
 2021-07-20T00:27:53.915Z [store-api] error PUT  - autorService.updateClient is not a function
 2021-07-20T00:28:18.182Z [store-api] error PUT  - Missing where attribute in the options parameter
 2021-07-20T00:30:46.784Z [store-api] error PUT  - Missing where attribute in the options parameter
+2021-07-20T00:34:50.940Z [store-api] info PUT /client - [1]
+2021-07-20T00:36:35.467Z [store-api] error PUT  - autorId is not defined
+2021-07-20T00:36:47.643Z [store-api] info PUT /client - {"autorId":4,"nome":"César  Alves","email":"cesarluccaalv@gmail.com","telefone":"63998823896"}
+2021-07-20T00:36:57.711Z [store-api] info PUT /client - {"autorId":4,"nome":"César","email":"cesarluccaalv@gmail.com","telefone":"63998823896"}
