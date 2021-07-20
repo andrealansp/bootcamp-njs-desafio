@@ -32,3 +32,6 @@
 2021-07-20T00:36:35.467Z [store-api] error PUT  - autorId is not defined
 2021-07-20T00:36:47.643Z [store-api] info PUT /client - {"autorId":4,"nome":"César  Alves","email":"cesarluccaalv@gmail.com","telefone":"63998823896"}
 2021-07-20T00:36:57.711Z [store-api] info PUT /client - {"autorId":4,"nome":"César","email":"cesarluccaalv@gmail.com","telefone":"63998823896"}
+2021-07-20T21:44:25.286Z [store-api] info GET /client
+2021-07-20T21:44:32.359Z [store-api] info GET /client
+2021-07-20T21:46:47.318Z [store-api] error GET  - clienteRepository.retornarClientes is not a function
