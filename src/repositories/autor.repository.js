@@ -7,7 +7,47 @@ async function inserirAutor(autor) {
     throw e;
   }
 }
+async function retornarAutores() {
+  try {
+    return await autorModel.findAll();
+  } catch (e) {
+    throw e;
+  }
+}
+async function retornaAutor(id) {
+  try {
+    const autor = await autorModel.findByPk(id);
+    if (!autor) {
+      return {
+        message:
+          "Não foi encontrado nenhum Autor, verifique o ID a ser consultado",
+      };
+    }
+    return autor;
+  } catch (e) {
+    throw e;
+  }
+}
+async function excluirAutor(id) {
+  try {
+    console.log(id);
+    return await autorModel.destroy({ where: { autorId: id } });
+  } catch (e) {
+    throw e;
+  }
+}
+async function atualizarAutor(autor) {
+  try {
+    return await autorModel.update({ where: { autorId: autor.autorId } });
+  } catch (e) {
+    throw e;
+  }
+}
 
 export default {
   inserirAutor,
+  retornarAutores,
+  retornaAutor,
+  excluirAutor,
+  atualizarAutor,
 };

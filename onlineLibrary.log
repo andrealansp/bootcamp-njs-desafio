@@ -4,3 +4,27 @@
 2021-07-18T20:59:16.941Z [store-api] info POST /client - {"clienteId":2,"nome":"Giovana Betina Barbosa","email":"giovanabetinabarbosa@gmail.com","senha":"ZjRxDsNQt4","telefone":"27998835914","endereco":"Rua Tancredo Neves 639, Serra-ES","updatedAt":"2021-07-18T20:59:16.269Z","createdAt":"2021-07-18T20:59:16.269Z"}
 2021-07-19T23:38:11.043Z [store-api] error POST  - client is not defined
 2021-07-19T23:40:15.920Z [store-api] error POST  - Validation error
+2021-07-19T23:59:21.414Z [store-api] error GET  - autorService.retornarAutors is not a function
+2021-07-20T00:00:04.461Z [store-api] info GET /client
+2021-07-20T00:09:01.686Z [store-api] error GET  - getaddrinfo EAI_AGAIN batyr.db.elephantsql.com
+2021-07-20T00:09:12.785Z [store-api] error GET  - getaddrinfo EAI_AGAIN batyr.db.elephantsql.com
+2021-07-20T00:10:16.051Z [store-api] info GET /client
+2021-07-20T00:15:40.211Z [store-api] info GET /client
+2021-07-20T00:15:45.942Z [store-api] info GET /client
+2021-07-20T00:15:52.310Z [store-api] info GET /client
+2021-07-20T00:18:15.178Z [store-api] info GET /client
+2021-07-20T00:18:49.753Z [store-api] info GET /client
+2021-07-20T00:18:54.598Z [store-api] info GET /client
+2021-07-20T00:19:16.128Z [store-api] info GET /client
+2021-07-20T00:22:21.430Z [store-api] error DELETE  - id is not defined
+2021-07-20T00:22:46.023Z [store-api] error DELETE  - id is not defined
+2021-07-20T00:23:14.994Z [store-api] error DELETE  - where is not defined
+2021-07-20T00:23:58.732Z [store-api] error DELETE  - column "autorID" does not exist
+2021-07-20T00:24:16.429Z [store-api] info DELETE /client
+2021-07-20T00:25:42.565Z [store-api] info GET /client
+2021-07-20T00:26:18.913Z [store-api] error PUT  - client is not defined
+2021-07-20T00:26:50.389Z [store-api] error PUT  - autorService.updateClient is not a function
+2021-07-20T00:27:22.991Z [store-api] error PUT  - autorService.updateClient is not a function
+2021-07-20T00:27:53.915Z [store-api] error PUT  - autorService.updateClient is not a function
+2021-07-20T00:28:18.182Z [store-api] error PUT  - Missing where attribute in the options parameter
+2021-07-20T00:30:46.784Z [store-api] error PUT  - Missing where attribute in the options parameter

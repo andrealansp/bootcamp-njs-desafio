@@ -18,7 +18,7 @@ async function criarAutor(req, res, next) {
 
 async function retornarAutores(req, res, next) {
   try {
-    res.send(await autorService.retornarAutors());
+    res.send(await autorService.retornarAutores());
     logger.info("GET /client");
   } catch (err) {
     next(err);
@@ -47,14 +47,14 @@ async function excluirAutor(req, res, next) {
 async function atualizarAutor(req, res, next) {
   try {
     let autor = req.body;
-    if (!autor.nome || !autor.email || !autor.telefone) {
+    if (!autor.nome || !autor.email || !autor.telefone || !autor.autorId) {
       throw new Error(
         "AutorId Nome, Email, e Telefone são obrigatórios para Atualização de um autor."
       );
     }
-    autor = await autorService.updateClient(client);
-    res.send(client);
-    logger.info(`PUT /client - ${JSON.stringify(client)}`);
+    autor = await autorService.atualizarAutor(autor);
+    res.send(autor);
+    logger.info(`PUT /client - ${JSON.stringify(autor)}`);
   } catch (err) {
     next(err);
   }
