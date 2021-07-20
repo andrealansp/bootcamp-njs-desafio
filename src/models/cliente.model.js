@@ -31,7 +31,8 @@ const Cliente = db.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
-  },{timestamp:false}
+  },
+  { timestamps: false }
 );
 
 export default Cliente;
