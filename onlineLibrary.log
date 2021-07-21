@@ -63,3 +63,5 @@
 2021-07-21T00:31:17.001Z [store-api] info GET /livro
 2021-07-21T00:32:39.708Z [store-api] info DELETE /livro
 2021-07-21T00:32:43.111Z [store-api] info GET /livro
+2021-07-21T00:52:49.786Z [store-api] info GET /client
+2021-07-21T00:53:07.732Z [store-api] info GET /client

@@ -32,7 +32,7 @@ const Venda = db.define(
   { timestamps: false }
 );
 
-Venda.BelongsTo(Cliente, { foreignKey: clienteId });
-Venda.BelongsTo(Livro, { foreignKey: livroId });
+Venda.belongsTo(Cliente, { foreignKey: "clienteId" });
+Venda.belongsTo(Livro, { foreignKey: "livroId" });
 
 export default Venda;

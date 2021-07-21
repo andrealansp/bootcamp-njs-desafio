@@ -1,12 +1,11 @@
-import express from "express"
-import vendaController from "../controllers/venda.controller.js"
-const router = express.Router()
+import express from "express";
+import vendaController from "../controllers/venda.controller.js";
+const router = express.Router();
 
-router.get('/', )
-router.get('/:id', )
-router.post('/', )
-router.put('/', )
-router.delete('/:id', )
+router.get("/", vendaController.retornarVendas);
+router.get("/:id", vendaController.retornaVenda);
+router.post("/", vendaController.criarVenda);
+router.put("/", vendaController.atualizarVenda);
+router.delete("/:id", vendaController.excluirVenda);
 
-
-export default router
+export default router;
