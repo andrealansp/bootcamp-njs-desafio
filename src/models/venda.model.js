@@ -27,11 +27,12 @@ const Venda = db.define(
     livroId: {
       type: Sequelize.INTEGER,
       allowNull: false,
-    }
-  },{timestamp:false}
+    },
+  },
+  { timestamps: false }
 );
 
-Venda.BelongsTo(Cliente, {foreignKey: clienteId})
-Venda.BelongsTo(Livro, {foreignKey:livroId})
+Venda.BelongsTo(Cliente, { foreignKey: clienteId });
+Venda.BelongsTo(Livro, { foreignKey: livroId });
 
 export default Venda;

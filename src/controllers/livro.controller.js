@@ -1,78 +1,76 @@
-import clienteService from "../services/cliente.service.js"
+import livroService from "../services/livro.service.js";
 
-async function criarCliente(req, res, next) {
-    try {
-      let cliente = req.body;
-      if (
-        !cliente.nome ||
-        !cliente.email ||
-        !cliente.senha ||
-        !cliente.telefone ||
-        !cliente.endereco
-      ) {
-        throw new Error("Name, email, senha, telefone e endereço são obrigatórios para criação do cliente.");
-      }
-      client = await clienteService.criarCliente(cliente);
-      res.send(client);
-      logger.info(`POST /client - ${JSON.stringify(client)}`);
-    } catch (err) {
-      next(err);
+async function criarLivro(req, res, next) {
+  try {
+    let livro = req.body;
+    console.log(livro);
+    if (!livro.nome || !livro.valor || !livro.estoque || !livro.autorId) {
+      throw new Error(
+        "Nome, valor, estoque, telefone e endereço são obrigatórios para criação do livro."
+      );
     }
+    livro = await livroService.criarLivro(livro);
+    res.send(livro);
+    logger.info(`POST /livro - ${JSON.stringify(livro)}`);
+  } catch (err) {
+    next(err);
   }
-  
-  async function retornarClientes(req, res, next) {
-    try {
-      res.send(await clienteService.retornarClientes());
-      logger.info("GET /client");
-    } catch (err) {
-      next(err);
+}
+
+async function retornarLivros(req, res, next) {
+  try {
+    res.send(await livroService.retornarLivros());
+    logger.info("GET /livro");
+  } catch (err) {
+    next(err);
+  }
+}
+
+async function retornaLivro(req, res, next) {
+  try {
+    res.send(await livroService.retornaLivro(req.params.id));
+    logger.info("GET /livro");
+  } catch (err) {
+    next(err);
+  }
+}
+
+async function excluirLivro(req, res, next) {
+  try {
+    await livroService.excluirLivro(req.params.id);
+    res.end();
+    logger.info("DELETE /livro");
+  } catch (err) {
+    next(err);
+  }
+}
+
+async function atualizarLivro(req, res, next) {
+  try {
+    let livro = req.body;
+    if (
+      !livro.livroId ||
+      !livro.nome ||
+      !livro.valor ||
+      !livro.estoque ||
+      !livro.autorId
+    ) {
+      throw new Error(
+        "LivroId Nome, valor, estoque, e autorId são obrigatórios para Atualização do livro."
+      );
     }
+    livro = await livroService.atualizarLivro(livro);
+    res.send(livro);
+    logger.info(`PUT /livro - ${JSON.stringify(livro)}`);
+  } catch (err) {
+    next(err);
   }
-  
-  async function retornaCliente(req, res, next) {
-    try {
-      res.send(await clienteService.retornaCliente(req.params.id));
-      logger.info("GET /client");
-    } catch (err) {
-      next(err);
-    }
-  }
-  
-  async function excluirCliente(req, res, next) {
-    try {
-      await clienteService.excluirCliente(req.params.id);
-      res.end();
-      logger.info("DELETE /client");
-    } catch (err) {
-      next(err);
-    }
-  }
-  
-  async function atualizarCliente(req, res, next) {
-    try {
-      let cliente = req.body;
-      if (
-        !cliente.nome ||
-        !cliente.email ||
-        !cliente.senha ||
-        !cliente.telefone ||
-        !cliente.endereco
-      ) {
-        throw new Error("ClienteId Nome, email, senha, telefone e endereço são obrigatórios para Atualização do cliente.");
-      }
-      client = await clientService.updateClient(client);
-      res.send(client);
-      logger.info(`PUT /client - ${JSON.stringify(client)}`);
-    } catch (err) {
-      next(err);
-    }
-  }
-  
-  export default {
-    criarCliente,
-    retornarClientes,
-    retornaCliente,
-    excluirCliente,
-    atualizarCliente,
-  };
-  
+}
+
+export default {
+  criarLivro,
+  retornarLivros,
+  retornaLivro,
+  excluirLivro,
+  atualizarLivro,
+};

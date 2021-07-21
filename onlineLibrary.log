@@ -55,3 +55,11 @@
 2021-07-19T22:34:18.916Z [store-api] info GET /client
 2021-07-19T22:34:32.373Z [store-api] info PUT /client - {"nome":"Giovana Barbosa","email":"giovanabetinabarbosa@gmail.com","telefone":"27998835914","endereco":"Rua Tancredo Neves 639, Serra-ES"}
 2021-07-19T22:44:39.915Z [store-api] info GET /client
+2021-07-21T00:05:32.899Z [store-api] info GET /livro
+2021-07-21T00:14:14.493Z [store-api] info POST /livro - {"livroId":1,"nome":"Fair Tales","valor":20.5,"estoque":10,"autorId":1,"autoreAutorId":null}
+2021-07-21T00:26:14.806Z [store-api] info POST /livro - {"livroId":1,"nome":"Fair Tales","valor":20.5,"estoque":10,"autorId":1}
+2021-07-21T00:30:53.964Z [store-api] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-21T00:30:59.777Z [store-api] info GET /livro
+2021-07-21T00:31:17.001Z [store-api] info GET /livro
+2021-07-21T00:32:39.708Z [store-api] info DELETE /livro
+2021-07-21T00:32:43.111Z [store-api] info GET /livro

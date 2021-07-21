@@ -12,9 +12,9 @@ const Livro = db.define(
       primaryKey: true,
     },
     nome: {
-        type: Sequelize.STRING,
-        allowNull: false,
-        unique: true,
+      type: Sequelize.STRING,
+      allowNull: false,
+      unique: true,
     },
     valor: {
       type: Sequelize.DOUBLE,
@@ -27,10 +27,11 @@ const Livro = db.define(
     autorId: {
       type: Sequelize.INTEGER,
       allowNull: false,
-    }
-  },{timestamp:false}
+    },
+  },
+  { timestamps: false }
 );
 
-Livro.BelongsTo(Autor, {foreignKey: autorId});
+Livro.belongsTo(Autor, { foreignKey: "autorId" });
 
 export default Livro;
