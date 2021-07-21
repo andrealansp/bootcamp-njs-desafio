@@ -65,3 +65,10 @@
 2021-07-21T00:32:43.111Z [store-api] info GET /livro
 2021-07-21T00:52:49.786Z [store-api] info GET /client
 2021-07-21T00:53:07.732Z [store-api] info GET /client
+2021-07-21T20:56:05.593Z [store-api] info GET /livro
+2021-07-21T21:24:28.764Z [store-api] info POST /livro - {"livroId":1,"nome":"APIs em Node.js","valor":90,"estoque":25,"autorId":1}
+2021-07-21T21:48:56.421Z [store-api] info GET /client
+2021-07-21T21:49:35.191Z [store-api] info GET /client
+2021-07-21T22:31:38.074Z [store-api] info GET /livro
+2021-07-21T22:31:44.728Z [store-api] info GET /client
+2021-07-21T22:31:59.707Z [store-api] info GET /client
