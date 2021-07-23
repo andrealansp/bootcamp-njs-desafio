@@ -12,7 +12,7 @@ async function retornaLivro(id) {
   const livro = await livroRepository.retornaLivro(id);
   const livroInfo = await livroRepository.selecionarLivro(id);
   console.log(livroInfo);
-  const dadosLivro = livro.concat(livroInfo);
+  const dadosLivro = { livro: livro, informações: livroInfo[0] };
   return dadosLivro;
 }
 

@@ -12,8 +12,6 @@ if (result.error) {
   throw result.error;
 }
 
-console.log(result.parsed);
-
 const app = express();
 app.use(express.json());
 app.use("/cliente", clienteRouter);

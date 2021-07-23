@@ -19,6 +19,8 @@ async function criarLivro(req, res, next) {
 
 async function retornarLivros(req, res, next) {
   try {
+    if (!req.query) {
+    }
     res.send(await livroService.retornarLivros(req.query.autorId));
     logger.info("GET /livro");
   } catch (err) {

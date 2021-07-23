@@ -17,6 +17,14 @@ async function retornarLivros() {
   }
 }
 
+async function retornarLivrosAutores(id) {
+  try {
+    return await livroModel.findAll({ where: { autorId: id } });
+  } catch (e) {
+    throw e;
+  }
+}
+
 async function retornaLivro(id) {
   try {
     return await livroModel.findByPk(id);
@@ -130,4 +138,5 @@ export default {
   cadastrarAvaliacao,
   selecionarLivro,
   excluirAvaliacao,
+  retornarLivrosAutores,
 };

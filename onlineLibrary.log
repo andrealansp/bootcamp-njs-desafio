@@ -275,3 +275,8 @@
 2021-07-23T02:56:29.945Z [online-library] error GET  - livro.concat is not a function
 2021-07-23T02:58:55.858Z [online-library] error GET  - object is not iterable (cannot read property Symbol(Symbol.iterator))
 2021-07-23T02:59:57.522Z [online-library] error GET  - livro.concat is not a function
+2021-07-23T03:15:51.258Z [online-library] error GET  - livro.concat is not a function
+2021-07-23T03:16:19.361Z [online-library] error GET  - livro.concat is not a function
+2021-07-23T03:16:55.543Z [online-library] error GET  - object is not iterable (cannot read property Symbol(Symbol.iterator))
+2021-07-23T03:18:59.090Z [online-library] info GET /livro
+2021-07-23T03:20:08.326Z [online-library] info GET /livro
