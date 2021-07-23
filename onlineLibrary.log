@@ -184,3 +184,42 @@
 2021-07-23T01:07:45.129Z [online-library] info GET /client
 2021-07-23T01:09:54.816Z [online-library] info GET /client
 2021-07-23T01:10:16.618Z [online-library] info GET /client
+2021-07-23T01:29:00.685Z [online-library] info DELETE /client
+2021-07-23T01:29:17.511Z [online-library] info DELETE /client
+2021-07-23T01:33:09.394Z [online-library] info GET /livro
+2021-07-23T01:34:17.935Z [online-library] info GET /livro
+2021-07-23T01:34:54.786Z [online-library] info GET /livro
+2021-07-23T01:37:21.895Z [online-library] info GET /livro
+2021-07-23T01:37:46.490Z [online-library] error DELETE  - livroRepository.retornarAutoresLivros is not a function
+2021-07-23T01:38:28.550Z [online-library] info DELETE /client
+2021-07-23T01:39:13.777Z [online-library] info DELETE /client
+2021-07-23T01:39:30.096Z [online-library] info DELETE /client
+2021-07-23T01:39:38.940Z [online-library] info DELETE /client
+2021-07-23T01:43:52.682Z [online-library] error DELETE  - Cannot read property 'map' of undefined
+2021-07-23T01:44:13.662Z [online-library] error DELETE  - Cannot read property 'map' of undefined
+2021-07-23T01:45:29.012Z [online-library] error DELETE  - Cannot read property 'dataValues' of undefined
+2021-07-23T01:46:06.579Z [online-library] info DELETE /client
+2021-07-23T01:46:38.744Z [online-library] error DELETE  - livroRepository.retornarLivro is not a function
+2021-07-23T01:48:47.200Z [online-library] info DELETE /client
+2021-07-23T01:49:13.019Z [online-library] info DELETE /client
+2021-07-23T01:49:54.057Z [online-library] info DELETE /client
+2021-07-23T01:50:27.361Z [online-library] info DELETE /client
+2021-07-23T01:51:03.921Z [online-library] info DELETE /client
+2021-07-23T01:52:45.922Z [online-library] error DELETE  - livros[0].dataValues.filter is not a function
+2021-07-23T01:54:11.006Z [online-library] error DELETE  - Cannot read property 'filter' of undefined
+2021-07-23T01:55:03.526Z [online-library] error DELETE  - Cannot read property 'filter' of undefined
+2021-07-23T01:56:16.744Z [online-library] info DELETE /client
+2021-07-23T01:56:59.977Z [online-library] info DELETE /client
+2021-07-23T01:57:56.352Z [online-library] info DELETE /client
+2021-07-23T01:59:11.205Z [online-library] info DELETE /client
+2021-07-23T01:59:22.401Z [online-library] info DELETE /client
+2021-07-23T02:00:26.210Z [online-library] info DELETE /client
+2021-07-23T02:02:14.504Z [online-library] info DELETE /client
+2021-07-23T02:02:51.931Z [online-library] info DELETE /client
+2021-07-23T02:03:30.843Z [online-library] info DELETE /client
+2021-07-23T02:04:37.116Z [online-library] info DELETE /client
+2021-07-23T02:06:18.954Z [online-library] info DELETE /client
+2021-07-23T02:08:05.150Z [online-library] info DELETE /client
+2021-07-23T02:08:15.267Z [online-library] error DELETE  - O autor possui livros em seu nome ! 
+2021-07-23T02:09:07.101Z [online-library] error DELETE  - O autor possui livros em seu nome ! 
+2021-07-23T02:09:46.438Z [online-library] error DELETE  - O autor possui livros em seu nome ! 

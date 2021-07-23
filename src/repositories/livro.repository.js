@@ -11,7 +11,7 @@ async function inserirLivro(livro) {
 
 async function retornarLivros() {
   try {
-    return await livroModel.findAll();
+    return await livroModel.findAll({ raw: false });
   } catch (e) {
     throw e;
   }
