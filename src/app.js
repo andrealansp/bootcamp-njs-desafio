@@ -21,9 +21,11 @@ app.use("/autor", autorRouter);
 app.use("/livro", livroRouter);
 app.use("/venda", vendaRouter);
 app.use(cors());
-app.use((err, req, res) => {
+app.use((err, req, res, next) => {
   logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
-  res.status(400).send({ error: err.message });
+  res
+    .status(400)
+    .send({ error: err.message, filename: err.filename, line: err.lineNumber });
 });
 
 export default app;

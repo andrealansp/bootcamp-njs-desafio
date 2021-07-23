@@ -72,3 +72,115 @@
 2021-07-21T22:31:38.074Z [store-api] info GET /livro
 2021-07-21T22:31:44.728Z [store-api] info GET /client
 2021-07-21T22:31:59.707Z [store-api] info GET /client
+2021-07-22T00:39:27.295Z [store-api] info POST /livro - {"_id":"60f8be3f3a84dd048113a791","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão","avaliacoes":[],"__v":0}
+2021-07-22T00:43:02.571Z [store-api] info POST /livro - {"_id":"60f8bf1694dece0690f65ec0","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão2","avaliacoes":[],"__v":0}
+2021-07-22T00:57:49.673Z [store-api] error undefined undefined - undefined
+2021-07-22T00:59:09.442Z [store-api] error undefined undefined - undefined
+2021-07-22T01:00:01.554Z [store-api] error undefined undefined - undefined
+2021-07-22T01:00:59.477Z [store-api] error undefined undefined - undefined
+2021-07-22T01:01:25.949Z [store-api] error undefined undefined - undefined
+2021-07-22T01:06:38.350Z [store-api] error undefined undefined - undefined
+2021-07-22T01:09:49.696Z [online-library] error undefined undefined - undefined
+2021-07-22T01:10:59.564Z [online-library] error undefined undefined - undefined
+2021-07-22T01:13:19.245Z [online-library] error undefined undefined - undefined
+2021-07-22T01:14:42.606Z [online-library] info DELETE /livro
+2021-07-22T01:15:36.691Z [online-library] info DELETE /livro
+2021-07-22T01:15:58.123Z [online-library] info DELETE /livro
+2021-07-22T01:28:40.273Z [online-library] info POST /livro - {"_id":"60f8c9c82bc1221691cf61be","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão2","avaliacoes":[],"__v":0}
+2021-07-22T01:49:21.715Z [online-library] info POST /livro - {"_id":"60f8cea12bc1221691cf61c0","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora IGTI","avaliacoes":[],"__v":0}
+2021-07-22T22:03:27.662Z [online-library] error undefined undefined - undefined
+2021-07-22T22:03:52.997Z [online-library] error undefined undefined - undefined
+2021-07-22T22:08:09.598Z [online-library] error undefined undefined - undefined
+2021-07-22T22:11:45.592Z [online-library] error POST  - Nome, nota e avaliacao são obrigatórios para criação da avaliacao.
+2021-07-22T22:11:55.415Z [online-library] error POST  - livroService.criarAvaliacao is not a function
+2021-07-22T22:13:07.308Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:14:17.168Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:15:47.499Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:17:04.846Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:20:27.820Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:21:00.383Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:21:50.801Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:22:12.992Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:32:59.488Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:33:17.917Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:33:55.789Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:34:17.729Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:37:54.011Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:38:51.967Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:39:26.361Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:41:21.556Z [online-library] error POST  - typeOf is not defined
+2021-07-22T22:42:08.255Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:42:32.804Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:43:03.181Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:43:42.194Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:44:30.600Z [online-library] error POST  - Cannot read property 'push' of undefined
+2021-07-22T22:44:37.080Z [online-library] error POST  - avaliacoes is not defined
+2021-07-22T22:46:09.582Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:47:29.487Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:48:21.330Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:49:25.858Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:50:05.726Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:51:11.466Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:51:53.263Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:52:00.941Z [online-library] error POST  - Cast to embedded failed for value "2" (type string) at path "avaliacoes"
+2021-07-22T22:53:11.960Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T22:54:13.491Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T23:05:48.256Z [online-library] info POST/livro/avaliacao:undefined
+2021-07-22T23:06:46.402Z [online-library] info POST/livro/avaliacao:{"lastErrorObject":{"n":1,"updatedExisting":true},"value":{"_id":"60f8c9c82bc1221691cf61be","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão2","avaliacoes":[{"_id":"60f9f6d7dddbd258a966bf15","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f715526b9e5974d5ba1f","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f9cc54e3bf5d7744efa4","nome":"João Gordinho Panceri","avaliacao":"O livro.....","nota":5}],"__v":0},"ok":1,"$clusterTime":{"clusterTime":"6987891196223815683","signature":{"hash":"R0UGz6XAUDAaljF32zP98FyCc9s=","keyId":"6930991907573071873"}},"operationTime":"6987891196223815683"}
+2021-07-22T23:07:41.933Z [online-library] info POST/livro/avaliacao:{"lastErrorObject":{"n":1,"updatedExisting":true},"value":{"_id":"60f8c9c82bc1221691cf61be","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão2","avaliacoes":[{"_id":"60f9f6d7dddbd258a966bf15","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f715526b9e5974d5ba1f","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f9cc54e3bf5d7744efa4","nome":"João Gordinho Panceri","avaliacao":"O livro.....","nota":5}],"__v":0},"ok":1,"$clusterTime":{"clusterTime":"6987891410972180481","signature":{"hash":"Fpbq0A3aqmqlyIqpz587mqjQ9vI=","keyId":"6930991907573071873"}},"operationTime":"6987891410972180481"}
+2021-07-22T23:08:23.490Z [online-library] info POST/livro/avaliacao:{"_id":"60f8c9c82bc1221691cf61be","livroId":6,"descricao":"O livro aborda na teoria a importância e utilização da autorização e autenticação em APIs com Node.js e Express","paginas":90,"editora":"Editora Dezão2","avaliacoes":[{"_id":"60f9f6d7dddbd258a966bf15","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f715526b9e5974d5ba1f","nome":"João Alan Alves","avaliacao":"O livro é muito bem escrito !","nota":5},{"_id":"60f9f9cc54e3bf5d7744efa4","nome":"João Gordinho Panceri","avaliacao":"O livro.....","nota":5}],"__v":0}
+2021-07-22T23:09:03.221Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[],"__v":0}
+2021-07-22T23:09:25.376Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[],"__v":0}
+2021-07-22T23:10:57.752Z [online-library] error POST  - avaliacoes is not defined
+2021-07-22T23:11:18.699Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[],"__v":0}
+2021-07-22T23:12:12.026Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5}],"__v":0}
+2021-07-22T23:13:26.540Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5}],"__v":0}
+2021-07-22T23:13:49.347Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5}],"__v":0}
+2021-07-22T23:39:46.461Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:40:36.863Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:43:47.561Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:48:42.551Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:49:18.660Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:49:42.887Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:50:07.966Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:50:27.274Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:51:11.687Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:51:33.730Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:52:01.960Z [online-library] error POST  - undefined is not a function
+2021-07-22T23:53:32.714Z [online-library] error POST  - avaliacaoId is not defined
+2021-07-22T23:55:18.096Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:55:46.987Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:58:29.821Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-22T23:58:49.759Z [online-library] error POST  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:00:48.954Z [online-library] info POST/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T00:01:51.452Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:02:21.539Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:03:03.863Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:03:45.042Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:07:04.277Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:08:25.904Z [online-library] error DELETE  - Cannot read property 'avaliacoes' of undefined
+2021-07-23T00:09:15.803Z [online-library] error DELETE  - Cannot read property 'undefined' of undefined
+2021-07-23T00:09:55.558Z [online-library] error DELETE  - Cannot read property 'undefined' of undefined
+2021-07-23T00:11:09.857Z [online-library] error DELETE  - Cannot read property '0' of undefined
+2021-07-23T00:11:51.785Z [online-library] error DELETE  - Cannot read property '0' of undefined
+2021-07-23T00:14:06.005Z [online-library] error DELETE  - Cannot read property '0' of undefined
+2021-07-23T00:20:05.458Z [online-library] error DELETE  - avaliacao is not defined
+2021-07-23T00:21:14.759Z [online-library] error DELETE  - avaliacao is not defined
+2021-07-23T00:23:11.062Z [online-library] error DELETE  - avaliacao is not defined
+2021-07-23T00:24:47.675Z [online-library] error DELETE  - livro[0].avaliacoes.delete is not a function
+2021-07-23T00:25:09.674Z [online-library] error DELETE  - Cannot read property '0' of undefined
+2021-07-23T00:34:21.555Z [online-library] error DELETE  - avaliacao is not defined
+2021-07-23T00:34:42.264Z [online-library] error DELETE  - avaliacao is not defined
+2021-07-23T00:35:48.978Z [online-library] info DELETE/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2},{"_id":"60fa06b03f3bfd7d13f142a9","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T00:36:32.472Z [online-library] error DELETE  - Cannot read property '0' of undefined
+2021-07-23T00:38:44.631Z [online-library] info DELETE/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2},{"_id":"60fa06b03f3bfd7d13f142a9","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T00:39:31.023Z [online-library] error DELETE  - index is not defined
+2021-07-23T00:39:47.057Z [online-library] error DELETE  - index is not defined
+2021-07-23T00:42:44.130Z [online-library] info DELETE/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2},{"_id":"60fa06b03f3bfd7d13f142a9","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T00:43:40.391Z [online-library] info DELETE/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2},{"_id":"60fa06b03f3bfd7d13f142a9","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T00:44:50.481Z [online-library] info DELETE/livro/avaliacao:{"_id":"60f8b508b1653bf2f1bc0071","livroId":1,"descricao":"O livro trata a respeito de criação de APIs com Node.js, levando ao leitor os principais conceitos necessários para a implementação","paginas":250,"editora":"Editora IGTI","avaliacoes":[{"_id":"60f9fb1669ab5460cf5fe720","nome":"João Magrinho Panceri","avaliacao":"O livro.....","nota":5},{"_id":"60f9fb4b69ab5460cf5fe724","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fb9612b9af61dc8e64fe","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":5},{"_id":"60f9fbad12b9af61dc8e6504","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2},{"_id":"60fa06b03f3bfd7d13f142a9","nome":"Andre Panceri","avaliacao":"O livro... .. .","nota":2}],"__v":0}
+2021-07-23T01:07:09.248Z [online-library] info GET /client
+2021-07-23T01:07:15.569Z [online-library] info GET /client
+2021-07-23T01:07:45.129Z [online-library] info GET /client
+2021-07-23T01:09:54.816Z [online-library] info GET /client
+2021-07-23T01:10:16.618Z [online-library] info GET /client
