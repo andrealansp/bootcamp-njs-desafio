@@ -223,3 +223,55 @@
 2021-07-23T02:08:15.267Z [online-library] error DELETE  - O autor possui livros em seu nome ! 
 2021-07-23T02:09:07.101Z [online-library] error DELETE  - O autor possui livros em seu nome ! 
 2021-07-23T02:09:46.438Z [online-library] error DELETE  - O autor possui livros em seu nome ! 
+2021-07-23T02:20:58.340Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:21:22.596Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:22:06.701Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:23:12.843Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:23:27.278Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:25:21.138Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:25:33.523Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:26:10.624Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:26:32.683Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:27:02.342Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:27:38.742Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:28:23.870Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:28:53.911Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:29:03.182Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:29:18.689Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:29:38.487Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:30:07.772Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:30:30.523Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:31:05.161Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:31:14.799Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:31:41.716Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:32:00.158Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:32:27.751Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:32:54.065Z [online-library] info PUT /livro - {"livroId":1,"nome":"Fair Tales 2","valor":32.5,"estoque":10,"autorId":1}
+2021-07-23T02:34:05.077Z [online-library] error PUT  - LivroId e valor são obrigatórios para Atualização do livro.
+2021-07-23T02:35:10.999Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:35:37.284Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:36:01.919Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:36:42.410Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:37:25.733Z [online-library] info PUT /livro - {"livroId":2,"nome":"JavaScript Moderno","valor":60.5,"estoque":5,"autorId":1}
+2021-07-23T02:37:59.424Z [online-library] info PUT /livro - {"livroId":2,"nome":"JavaScript Moderno","valor":60.5,"estoque":5,"autorId":1}
+2021-07-23T02:38:47.763Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:39:18.863Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:39:28.973Z [online-library] error PUT  - livro.length is not a function
+2021-07-23T02:40:57.574Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:41:28.139Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:43:45.010Z [online-library] error PUT  - livro.keys is not a function
+2021-07-23T02:43:57.047Z [online-library] error PUT  - livro.keys is not a function
+2021-07-23T02:44:28.225Z [online-library] error PUT  - obejct is not defined
+2021-07-23T02:44:41.546Z [online-library] error PUT  - object is not defined
+2021-07-23T02:45:35.101Z [online-library] error PUT  - livro.keys is not a function
+2021-07-23T02:48:05.846Z [online-library] error PUT  - Object.Keys is not a function
+2021-07-23T02:48:16.987Z [online-library] error PUT  - Cannot convert undefined or null to object
+2021-07-23T02:48:32.497Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:48:57.653Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:49:15.206Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:49:43.855Z [online-library] info PUT /livro - {"livroId":2,"nome":"JavaScript Moderno","valor":60.5,"estoque":5,"autorId":1}
+2021-07-23T02:50:06.383Z [online-library] error PUT  - Somente livroId e valor são aceitos na atualização do livro.
+2021-07-23T02:50:26.270Z [online-library] info PUT /livro - {"livroId":2,"nome":"JavaScript Moderno","valor":65,"estoque":5,"autorId":1}
+2021-07-23T02:56:29.945Z [online-library] error GET  - livro.concat is not a function
+2021-07-23T02:58:55.858Z [online-library] error GET  - object is not iterable (cannot read property Symbol(Symbol.iterator))
+2021-07-23T02:59:57.522Z [online-library] error GET  - livro.concat is not a function

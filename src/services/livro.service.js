@@ -9,7 +9,11 @@ async function retornarLivros(autorId) {
 }
 
 async function retornaLivro(id) {
-  return await livroRepository.retornaLivro(id);
+  const livro = await livroRepository.retornaLivro(id);
+  const livroInfo = await livroRepository.selecionarLivro(id);
+  console.log(livroInfo);
+  const dadosLivro = livro.concat(livroInfo);
+  return dadosLivro;
 }
 
 async function excluirLivro(id) {

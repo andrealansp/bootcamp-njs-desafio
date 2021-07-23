@@ -2,3 +2,4 @@ onlineLibrary.log
 /node_modules
 .env
 *.log
+.vscode

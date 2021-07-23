@@ -48,20 +48,16 @@ async function excluirLivro(req, res, next) {
 async function atualizarLivro(req, res, next) {
   try {
     let livro = req.body;
-    if (
-      !livro.livroId ||
-      !livro.nome ||
-      !livro.valor ||
-      !livro.estoque ||
-      !livro.autorId
-    ) {
+
+    if (livro.livroId && livro.valor && Object.keys(livro).length === 2) {
+      livro = await livroService.atualizarLivro(livro);
+      res.send(livro);
+      logger.info(`PUT /livro - ${JSON.stringify(livro)}`);
+    } else {
       throw new Error(
-        "LivroId Nome, valor, estoque, e autorId são obrigatórios para Atualização do livro."
+        "Somente livroId e valor são aceitos na atualização do livro."
       );
     }
-    livro = await livroService.atualizarLivro(livro);
-    res.send(livro);
-    logger.info(`PUT /livro - ${JSON.stringify(livro)}`);
   } catch (err) {
     next(err);
   }
